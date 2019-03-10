@@ -10,7 +10,7 @@ import _ from 'underscore';
 const images = [forest,plains,mountain];
 const Colors = {R: '#E07A5F', U: '#6080C9', G: '#81B29A', W: '#F4F1DE', B: '#2D2D2A', C: '#b7aa79', GW: '#81B29A'}
 
-const apiPath = 'http://localhost:3001/api';
+const apiPath = process.env.REACT_APP_API_PATH || 'http://localhost:3001/api';
 
 
 class App extends Component {
