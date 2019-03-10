@@ -1,26 +1,83 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.mana-large {
   height: 40vmin;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.analysis-section {
+  margin: 10px;
+  display: flex;
+  flex-flow: column;
+}
+
+.decklist-section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.results {
+  padding: 10px;
+}
+
+.color-cost-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  border: 1px solid white;
+}
+
+.white {
+  background: #F4F1DE;
+  color: #66686b;
+}
+
+.decklist {
+  width: 50vw;
+  margin: 10px;
+  border-radius: 5px;
+  min-width: 280px;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: transparent;
+  border: 2px solid white;
+  padding: 0 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: rgb(151, 52, 52);
+  background: white;
 }
 
 @keyframes App-logo-spin {

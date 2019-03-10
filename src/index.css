@@ -4,8 +4,28 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-size: calc(10px + 2vmin);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
+}
+
+a {
+  color: white;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #61dafb
+}
+
+main {
+  
+}
+
+footer {
+  font-size: calc(10px + 1vmin);
 }
 
 code {

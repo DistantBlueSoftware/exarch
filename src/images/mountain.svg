@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <circle style="fill: rgb(151, 52, 52);" cx="249.559" cy="251.91" r="239.193" transform="matrix(1.016422, 0, 0, 1.024231, -3.238862, -7.600605)"/>
+  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 77.327 424.443 L 204.185 196.214 L 271.417 308.903"/>
+  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 244.716 256.796 L 318.457 144.972 L 455.292 404.872"/>
+  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 366.231 231.743 L 450.146 133.821 L 494.597 193.764"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 557.601 39.094"/>
+  <path style="stroke-width: 15px; stroke: rgb(255, 255, 255); fill: none;" d="M 170.744 479.238 L 286.006 279.801 L 378.505 465.737"/>
+  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 269.245 218.171 L 176.389 77.037 L 7.07 325.949"/>
+</svg>
