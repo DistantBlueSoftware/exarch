@@ -8,7 +8,16 @@ import './App.css';
 import _ from 'underscore';
 
 const images = [forest,plains,mountain];
-const Colors = {R: '#E07A5F', U: '#6080C9', G: '#81B29A', W: '#F4F1DE', B: '#2D2D2A', C: '#b7aa79', GW: '#81B29A'}
+const Colors = {
+  R: '#E07A5F', 
+  U: '#6080C9', 
+  G: '#81B29A', 
+  W: '#F4F1DE', 
+  B: '#2D2D2A', 
+  C: '#b7aa79', 
+  GW: 'linear-gradient(125deg, rgb(244, 241, 222) 0%, rgb(244, 241, 222) 50%, rgb(224, 122, 95) 50%, rgb(224, 122, 95) 100%)',
+  RW: 'linear-gradient(125deg, rgb(244, 241, 222) 0%, rgb(244, 241, 222) 50%, rgba(129, 179, 154,1) 50%, rgba(129, 179, 154,1) 100%)'
+}
 
 const apiPath = process.env.REACT_APP_API_PATH || 'http://localhost:3001/api';
 
