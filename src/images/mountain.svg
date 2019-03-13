@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <circle style="fill: rgb(151, 52, 52);" cx="249.559" cy="251.91" r="239.193" transform="matrix(1.016422, 0, 0, 1.024231, -3.238862, -7.600605)"/>
-  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 77.327 424.443 L 204.185 196.214 L 271.417 308.903"/>
-  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 244.716 256.796 L 318.457 144.972 L 455.292 404.872"/>
-  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 366.231 231.743 L 450.146 133.821 L 494.597 193.764"/>
+  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 79.335 419.717 L 204.185 196.214 L 271.417 308.903"/>
+  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 244.716 254.302 L 319.901 144.972 L 451.341 381.321"/>
+  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 366.231 231.743 L 456.411 126.169"/>
   <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 557.601 39.094"/>
-  <path style="stroke-width: 15px; stroke: rgb(255, 255, 255); fill: none;" d="M 170.744 479.238 L 286.006 279.801 L 378.505 465.737"/>
-  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 269.245 218.171 L 176.389 77.037 L 7.07 325.949"/>
+  <path style="stroke-width: 15px; stroke: rgb(255, 255, 255); fill: none;" d="M 171.903 476.484 L 286.006 279.801 L 376.768 455.456"/>
+  <path style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 15px;" d="M 269.245 218.171 L 176.389 77.037 L 17.929 311.015"/>
+  <path d="M 321.977 202.109 m -245.441 0 a 245.441 245.441 0 1 0 490.882 0 a 245.441 245.441 0 1 0 -490.882 0 Z M 321.977 202.109 m -236.783 0 a 236.783 236.783 0 0 1 473.566 0 a 236.783 236.783 0 0 1 -473.566 0 Z" style="fill: rgb(150, 83, 83);" transform="matrix(-0.99772, 0.067483, -0.067483, -0.99772, 585.640421, 430.031274)" bx:shape="ring 321.977 202.109 236.783 236.783 245.441 245.441 1@9214464f"/>
 </svg>

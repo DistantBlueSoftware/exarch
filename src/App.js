@@ -4,10 +4,12 @@ import ReactTooltip from 'react-tooltip';
 import plains from './images/plains.svg';
 import forest from './images/forest.svg';
 import mountain from './images/mountain.svg';
+import swamp from './images/swamp.svg';
+import island from './images/island.svg';
 import './App.css';
 import _ from 'underscore';
 
-const images = [forest,plains,mountain];
+const images = [forest,plains,mountain,swamp,island];
 const Colors = {
   R: '#E07A5F', 
   U: '#6080C9', 
@@ -16,10 +18,18 @@ const Colors = {
   B: '#2D2D2A', 
   C: '#b7aa79', 
   GW: 'linear-gradient(125deg, rgb(244, 241, 222) 0%, rgb(244, 241, 222) 50%, rgb(129, 179, 154) 50%, rgb(129, 179, 154) 100%)',
-  RW: 'linear-gradient(125deg, rgb(244, 241, 222) 0%, rgb(244, 241, 222) 50%, rgb(224, 122, 95) 50%, rgb(224, 122, 95) 100%)'
+  RW: 'linear-gradient(125deg, rgb(244, 241, 222) 0%, rgb(244, 241, 222) 50%, rgb(224, 122, 95) 50%, rgb(224, 122, 95) 100%)',
+  UW: 'linear-gradient(125deg, rgb(244, 241, 222) 0%, rgb(244, 241, 222) 50%, rgb(97, 129, 201) 50%, rgb(97, 129, 201) 100%)',
+  BW: 'linear-gradient(125deg, rgb(244, 241, 222) 0%, rgb(244, 241, 222) 50%, rgb(45, 45, 42) 50%, rgb(45, 45, 42) 100%)',
+  BR: 'linear-gradient(125deg, rgb(45, 45, 42) 0%, rgb(45, 45, 42) 50%, rgb(224, 122, 95) 50%, rgb(224, 122, 95) 100%)',
+  GU: 'linear-gradient(125deg, rgb(129, 179, 154) 0%, rgb(129, 179, 154) 50%, rgb(97, 129, 201) 50%, rgb(97, 129, 201) 100%)',
+  UR: 'linear-gradient(125deg, rgb(97, 129, 201) 0%, rgb(97, 129, 201) 50%, rgb(224, 122, 95) 50%, rgb(224, 122, 95) 100%)',
+  UB: 'linear-gradient(125deg, rgb(97, 129, 201) 0%, rgb(97, 129, 201) 50%, rgb(45, 45, 42) 50%, rgb(45, 45, 42) 100%)',
+  GR: 'linear-gradient(125deg, rgb(129, 179, 154) 0%, rgb(129, 179, 154) 50%, rgb(224, 122, 95) 50%, rgb(224, 122, 95) 100%)',
+  GB: 'linear-gradient(125deg, rgb(129, 179, 154) 0%, rgb(129, 179, 154) 50%, rgb(45, 45, 42) 50%, rgb(45, 45, 42) 100%)',
 }
 
-const apiPath = process.env.REACT_APP_API_PATH || 'http://localhost:3001/api';
+const apiPath = 'http://localhost:3001/api';
 
 
 class App extends Component {
