@@ -29,7 +29,7 @@ const Colors = {
   GB: 'linear-gradient(125deg, rgb(129, 179, 154) 0%, rgb(129, 179, 154) 50%, rgb(45, 45, 42) 50%, rgb(45, 45, 42) 100%)',
 }
 
-const apiPath = 'http://localhost:3001/api';
+const apiPath = process.env.REACT_APP_API_PATH || 'http://localhost:3001/api';
 
 
 class App extends Component {
