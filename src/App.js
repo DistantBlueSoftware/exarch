@@ -168,7 +168,7 @@ class App extends Component {
                     <li data-tip="hello world">Average CMC: {deckData.avgCMC}</li>
                     {deckData.adjustedCMC !== deckData.avgCMC && <li>Adjusted CMC: {deckData.adjustedCMC || 0}</li>}
                     {deckData.cantripCount > 0 && <li>Cantrips: {deckData.cantripCount}</li>}
-                    {deckData.accelCount > 0 && <li>Accelerators: {deckData.accelCount}</li>}
+                    {deckData.accelCount > 0 && <li>Accelerants: {deckData.accelCount}</li>}
                     <li>Devotion: <div style={{display: 'flex'}}>{devotionBreakdown}</div></li>
                     <li>{deckData.size} cards in deck</li>
                     {_.map(deckData.counts, (type, key) => type > 0 ? <li key={key}>{type} {key === 'sorcery' ? 'sorcerie' : key}s</li> : null)}
